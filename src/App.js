@@ -9,6 +9,7 @@ function App() {
     {Sdata.map( (val) =>{
         return(
             <Card
+            key={val.id}
             sname={val.sname}
             imgsrc={val.imgsrc} 
             title={val.title}
