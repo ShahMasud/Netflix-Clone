@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,221,33,1) 100%, rgba(0,212,255,1) 100%);
+    /* background: rgb(30,32,17);
+background: radial-gradient(circle, rgba(30,32,17,0.7875525210084033) 50%, rgba(199,215,29,1) 100%); */
+}
+h1{
+    text-align: center;
+    padding: 15px;
+    font-family: sans-serif;
+    /* background-color: black; */
+    color: hsl(240, 23%, 92%);
+    background: rgb(2,0,36);
+    /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(222,221,33,1) 100%, rgba(0,212,255,1) 100%); */
+    
+}
+.cards{
+    display: inline-flex;
+    padding: 20px;
+    margin-left: 175px;
+    margin-top: 30px;
+    align-items: flex-end;
+    background-color: black;
+    border-radius: 20px;
+    color: hsl(240, 23%, 92%);
+
+}
+.card{
+    text-align: center;
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 5px 4px grey; 
+}
+.card_img{
+    width: 200px;
+    height: 100px;
+}
+.card_info{
+    font-family: sans-serif;
+    margin-top: 10px;
+    /* background-color: brown; */
+}
+button{
+    background-color: black;
+    color: hsl(240, 23%, 92%);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px 4px grey;
+    text-transform: capitalize;
+}
+.card_info button:hover{
+    background-color: #ffffff;
+    color: black;
+    cursor: pointer;
+}
