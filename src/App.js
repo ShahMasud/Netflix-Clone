@@ -5,7 +5,7 @@ import Sdata from './Sdata';
 function App() {   
     return(
     <>
-    <h1>*** Top Netflix series 2021 ***</h1>
+    <h1>Top Netflix series 2021 </h1>
     {Sdata.map( (val) =>{
         return(
             <Card
